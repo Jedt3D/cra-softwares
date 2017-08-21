@@ -1,0 +1,40 @@
+#tag MultiImage
+Image preview
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAG8AAAAAAG8AAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADSvTc9SCsAAATdxUQLcHJldmlldy5qcGcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABN5hbtVIVjQAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABkltYWdlcwAQAAgAANK81M0AAAARAAgAANVH88QAAAABABgE3cVEBN28qwAy3dQAWqSIAAldDAAGLKMAAgBUTWFjaW50b3NoIEhEOlVzZXJzOgB3cmo6AE9uZURyaXZlOgBYb2pvIFByb2plY3RzOgBQQ0NNUyBTY29yaW5nOgBJbWFnZXM6AHByZXZpZXcuanBnAA4AGAALAHAAcgBlAHYAaQBlAHcALgBqAHAAZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAEFVc2Vycy93cmovT25lRHJpdmUvWG9qbyBQcm9qZWN0cy9QQ0NNUyBTY29yaW5nL0ltYWdlcy9wcmV2aWV3LmpwZwAAEwABLwAAFQACAAr//wAAAAAAAAAA
+		FullPath = /Users/wrj/OneDrive/Xojo Projects/PCCMS Scoring/Images/preview.jpg
+		PartialPath = Images\preview.jpg
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage
