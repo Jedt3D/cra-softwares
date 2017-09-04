@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "CRA Student Profile"
+AuthUserFile /var/www/html/student/.htpasswd
+Require valid-user
+

@@ -23,15 +23,15 @@ Begin Window winMain
    MinWidth        =   64
    Placement       =   0
    Resizeable      =   True
-   Title           =   "Main"
+   Title           =   "หน้าจอหลัก"
    Visible         =   True
-   Width           =   576
+   Width           =   866
    Begin PushButton PushButton1
       AutoDeactivate  =   True
       Bold            =   False
       ButtonStyle     =   "6"
       Cancel          =   False
-      Caption         =   "Student"
+      Caption         =   "นักศึกษา"
       Default         =   False
       Enabled         =   True
       Height          =   71
@@ -55,14 +55,14 @@ Begin Window winMain
       Top             =   52
       Underline       =   False
       Visible         =   True
-      Width           =   122
+      Width           =   100
    End
    Begin PushButton PushButton2
       AutoDeactivate  =   True
       Bold            =   False
       ButtonStyle     =   "6"
       Cancel          =   False
-      Caption         =   "Course"
+      Caption         =   "รายวิชาของ รจภ"
       Default         =   False
       Enabled         =   True
       Height          =   71
@@ -70,7 +70,7 @@ Begin Window winMain
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   154
+      Left            =   132
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -93,7 +93,7 @@ Begin Window winMain
       Bold            =   False
       ButtonStyle     =   "6"
       Cancel          =   False
-      Caption         =   "Edu. Year"
+      Caption         =   "ปีการศึกษา"
       Default         =   False
       Enabled         =   True
       Height          =   71
@@ -101,14 +101,14 @@ Begin Window winMain
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   288
+      Left            =   724
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
       Scope           =   0
-      TabIndex        =   3
+      TabIndex        =   6
       TabPanelIndex   =   0
       TabStop         =   True
       TextFont        =   "System"
@@ -124,7 +124,7 @@ Begin Window winMain
       Bold            =   False
       ButtonStyle     =   "6"
       Cancel          =   False
-      Caption         =   "Rule"
+      Caption         =   "Rules Management"
       Default         =   False
       Enabled         =   True
       Height          =   71
@@ -139,7 +139,7 @@ Begin Window winMain
       LockRight       =   False
       LockTop         =   True
       Scope           =   0
-      TabIndex        =   4
+      TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
       TextFont        =   "System"
@@ -148,38 +148,7 @@ Begin Window winMain
       Top             =   196
       Underline       =   False
       Visible         =   True
-      Width           =   122
-   End
-   Begin PushButton PushButton5
-      AutoDeactivate  =   True
-      Bold            =   False
-      ButtonStyle     =   "6"
-      Cancel          =   False
-      Caption         =   "Transfer"
-      Default         =   False
-      Enabled         =   True
-      Height          =   71
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   154
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Scope           =   0
-      TabIndex        =   5
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   196
-      Underline       =   False
-      Visible         =   True
-      Width           =   122
+      Width           =   193
    End
    Begin Label Label1
       AutoDeactivate  =   True
@@ -204,7 +173,7 @@ Begin Window winMain
       TabIndex        =   7
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "Master Data"
+      Text            =   "ข้อมูลมาสเตอร์"
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
@@ -239,7 +208,7 @@ Begin Window winMain
       TabIndex        =   8
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "Transfer"
+      Text            =   "กำหนดการเทียบเคียงรายวิชา"
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
@@ -249,14 +218,14 @@ Begin Window winMain
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   193
    End
    Begin PushButton PushButton6
       AutoDeactivate  =   True
       Bold            =   False
       ButtonStyle     =   "6"
       Cancel          =   False
-      Caption         =   "Curriculum"
+      Caption         =   "หลักสูตร"
       Default         =   False
       Enabled         =   True
       Height          =   71
@@ -264,14 +233,14 @@ Begin Window winMain
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   422
+      Left            =   456
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
       Scope           =   0
-      TabIndex        =   9
+      TabIndex        =   4
       TabPanelIndex   =   0
       TabStop         =   True
       TextFont        =   "System"
@@ -282,10 +251,104 @@ Begin Window winMain
       Visible         =   True
       Width           =   122
    End
+   Begin PushButton PushButton7
+      AutoDeactivate  =   True
+      Bold            =   False
+      ButtonStyle     =   "6"
+      Cancel          =   False
+      Caption         =   "คณะ"
+      Default         =   False
+      Enabled         =   True
+      Height          =   71
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   590
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   0
+      TabIndex        =   5
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   52
+      Underline       =   False
+      Visible         =   True
+      Width           =   122
+   End
+   Begin PushButton PushButton8
+      AutoDeactivate  =   True
+      Bold            =   False
+      ButtonStyle     =   "6"
+      Cancel          =   False
+      Caption         =   "รายวิชาของมหาวิทยาลัยอื่น"
+      Default         =   False
+      Enabled         =   True
+      Height          =   71
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   266
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   0
+      TabIndex        =   3
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   52
+      Underline       =   False
+      Visible         =   True
+      Width           =   178
+   End
 End
 #tag EndWindow
 
 #tag WindowCode
+	#tag Event
+		Sub Close()
+		  Quit
+		End Sub
+	#tag EndEvent
+
+	#tag Event
+		Function KeyDown(Key As String) As Boolean
+		  // Press the esc Key to close this window
+		  If Key = Chr(27) Then
+		    Dim d As New MessageDialog                  //declare the MessageDialog object
+		    Dim b As MessageDialogButton                //for handling the result
+		    d.icon=MessageDialog.GraphicCaution         //display warning icon
+		    d.ActionButton.Caption="ออกจากโปรแกรม"
+		    d.CancelButton.Visible=True                 //show the Cancel button
+		    d.CancelButton.Caption="ยกเลิก"
+		    d.Message="คุณต้องการปิดโปรแกรมนี้?"
+		    d.Explanation="ถ้าปิดโปรแกรมตอนนี้ กรุณาตรวจสอบว่าข้อมูลในแต่ละหน้าจอได้รับการบันทึกไว้เรียบร้อยแล้ว"
+		    
+		    b=d.ShowModal                              //display the dialog
+		    Select Case b                              //determine which button was pressed.
+		    Case d.ActionButton
+		      //user pressed Save
+		      Quit
+		    Case d.CancelButton
+		      //user pressed Cancel
+		    End Select
+		  End If
+		End Function
+	#tag EndEvent
+
+
 #tag EndWindowCode
 
 #tag Events PushButton1
@@ -298,7 +361,7 @@ End
 #tag Events PushButton2
 	#tag Event
 		Sub Action()
-		  winCourse.Visible = True
+		  winSubject.Visible = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -312,21 +375,28 @@ End
 #tag Events PushButton4
 	#tag Event
 		Sub Action()
-		  winRule.Visible = True
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events PushButton5
-	#tag Event
-		Sub Action()
-		  winTransfer.Visible = True
+		  winRules.Visible = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events PushButton6
 	#tag Event
 		Sub Action()
-		  winCurriculum.Visible = True
+		  winProgram.Visible = True
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events PushButton7
+	#tag Event
+		Sub Action()
+		  winFaculty.Visible = True
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events PushButton8
+	#tag Event
+		Sub Action()
+		  winOtherSubject.Visible = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
